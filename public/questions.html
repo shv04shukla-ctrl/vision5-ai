@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Vision5 AI — Question Bank</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="topnav">
+        <a href="chat.html">Chat</a>
+        <a href="questions.html" class="active">Questions</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="notes.html">Notes</a>
+        <a href="progress.html">Progress</a>
+    </nav>
+
+    <main class="container">
+        <h1>Question Bank — Class 10 & 11</h1>
+
+        <div class="controls">
+            <select id="subject-select">
+                <option value="all">All Subjects</option>
+                <option value="physics">Physics</option>
+                <option value="chemistry">Chemistry</option>
+                <option value="biology">Biology</option>
+                <option value="maths">Mathematics</option>
+                <option value="english">English</option>
+                <option value="social">Social Science</option>
+            </select>
+
+            <input id="search-input" placeholder="Search question..." />
+            <button id="search-btn">Search</button>
+            <button id="show-all">Show All</button>
+        </div>
+
+        <ul id="qa-list" class="qa-list"></ul>
+    </main>
+
+    <script src="questions.js"></script>
+</body>
+
+</html>

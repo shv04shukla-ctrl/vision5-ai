@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Vision5 AI — Smart Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="topnav">
+        <a href="chat.html">Chat</a>
+        <a href="questions.html">Questions</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="notes.html" class="active">Notes</a>
+        <a href="progress.html">Progress</a>
+    </nav>
+
+    <main class="container">
+        <h1>🧠 Smart Notes</h1>
+
+        <!-- Note Input Card -->
+        <div class="card">
+            <h2>Create a New Note</h2>
+            <textarea id="noteInput" placeholder="Write your notes here..."></textarea>
+            <button id="saveNoteBtn">💾 Save Note</button>
+        </div>
+
+        <!-- Saved Notes Section -->
+        <div class="card">
+            <h2>📚 Saved Notes</h2>
+            <ul id="notesList" class="notes-list"></ul>
+        </div>
+    </main>
+
+    <script src="notes.js"></script>
+</body>
+
+</html>

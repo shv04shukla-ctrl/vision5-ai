@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "ai": "^5.0.81",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^6.7.0"
+  }
+}
